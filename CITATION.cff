@@ -11,7 +11,7 @@ authors:
     affiliation: "Electronics Research Institute, Cairo, Egypt"
     # orcid: "https://orcid.org/0000-0000-0000-0000"      # add your ORCID iD
 repository-code: "https://github.com/OWNER/REPOSITORY"       # optional: remove this line if there is no GitHub repository
-doi: "10.5281/zenodo.XXXXXXX"                                  # replace with the DOI that Zenodo reserves
+doi: "10.5281/zenodo.23502618"                                 
 keywords:
   - ultra-wideband
   - TDoA
