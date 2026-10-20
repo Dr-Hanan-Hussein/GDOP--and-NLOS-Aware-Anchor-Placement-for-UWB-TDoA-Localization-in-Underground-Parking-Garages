@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below, and cite the article it accompanies."
+type: software
+title: "Replication package for GDOP- and NLOS-aware anchor placement for UWB-TDoA localization in underground parking garages"
+version: "1.0.0"
+date-released: "2026-10-19"          # update to the deposit date
+license: MIT
+authors:
+  - family-names: Hussein
+    given-names: Hanan H.
+    affiliation: "Electronics Research Institute, Cairo, Egypt"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"      # add your ORCID iD
+repository-code: "https://github.com/OWNER/REPOSITORY"       # optional: remove this line if there is no GitHub repository
+doi: "10.5281/zenodo.XXXXXXX"                                  # replace with the DOI that Zenodo reserves
+keywords:
+  - ultra-wideband
+  - TDoA
+  - anchor placement
+  - GDOP
+  - NLOS
+  - autonomous valet parking
+  - particle swarm optimization
+  - genetic algorithm
+  - simulated annealing
+preferred-citation:
+  type: article
+  title: "GDOP- and NLOS-Aware Anchor Placement for UWB-TDoA Localization in Underground Parking Garages"
+  authors:
+    - family-names: Hussein
+      given-names: Hanan H.
+  journal: "Vehicular Communications"
+  year: 2026
+  notes: "Under review; update volume, pages and DOI after publication."

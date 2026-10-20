@@ -1,0 +1,15 @@
+{
+  "title": "Replication package for GDOP- and NLOS-aware anchor placement for UWB-TDoA localization in underground parking garages",
+  "upload_type": "software",
+  "description": "<p>Python code, fixed random seeds and result files that reproduce every table and figure of the article <em>GDOP- and NLOS-Aware Anchor Placement for UWB-TDoA Localization in Underground Parking Garages</em> (Vehicular Communications). The package contains the parametric garage model with a height-aware line-of-sight model, the reference-invariant GDOP objective, binary PSO, GA and SA optimizers, the Monte Carlo TDoA solver, the Cram&eacute;r&ndash;Rao bound and RSSI benchmark, and the accuracy-driven design experiments. All results are simulation-based. See README.md for the mapping from scripts to tables and figures.</p>",
+  "creators": [
+    {
+      "name": "Hussein, Hanan H.",
+      "affiliation": "Electronics Research Institute, Cairo, Egypt"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["ultra-wideband", "TDoA", "anchor placement", "GDOP", "NLOS", "autonomous valet parking", "metaheuristic optimization", "reproducibility"],
+  "language": "eng"
+}

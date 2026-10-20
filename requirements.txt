@@ -1,0 +1,6 @@
+# Versions the results in results/ were produced with (Python 3.13.16).
+# Later versions normally work; PSO/GA outputs depend on NumPy's random stream, so exact table values are only guaranteed for these versions.
+numpy==2.5.3
+scipy==1.18.1
+shapely==2.2.0
+matplotlib==3.11.2   # figures only
