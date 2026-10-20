@@ -1,0 +1,427 @@
+{
+  "garage": "Garage 2 (Tongji University-inspired, smaller/denser)",
+  "slope_a": 6.626828923042194,
+  "percentile": 95,
+  "targets": {
+    "10.0": {
+      "gdop_max_target": 1.509017377109122,
+      "sweep": {
+        "4": {
+          "coverage_frac": 0.20253164556962025,
+          "f2_p95_gdop": 1.4848724882272373,
+          "f1_mean_gdop": 1.2923854524425678,
+          "F": 152.47092882674576,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "6": {
+          "coverage_frac": 0.5189873417721519,
+          "f2_p95_gdop": 1.7130863203872346,
+          "f1_mean_gdop": 1.454618813765816,
+          "F": 99.8736839436283,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "8": {
+          "coverage_frac": 0.9873417721518988,
+          "f2_p95_gdop": 1.6302577464500636,
+          "f1_mean_gdop": 1.231962452203268,
+          "F": 9.324238665700413,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "10": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.320188428724959,
+          "f1_mean_gdop": 0.969640751891663,
+          "F": 2.789829180616622,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "12": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.1650761876704325,
+          "f1_mean_gdop": 0.8627902315333356,
+          "F": 2.627866419203768,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "14": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0384084442342594,
+          "f1_mean_gdop": 0.8231431130442919,
+          "F": 2.5615515572785514,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "16": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0382654454234443,
+          "f1_mean_gdop": 0.7829299060621195,
+          "F": 2.621195351485564,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "18": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "20": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "22": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "24": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "26": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "28": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "30": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        }
+      },
+      "min_M": 10,
+      "confirm": {
+        "M": 10,
+        "winner_alg": "GA",
+        "F_GA": 2.789829180616622,
+        "F_PSO": 8.292418426068814,
+        "layout_idx": [
+          2,
+          6,
+          9,
+          20,
+          23,
+          34,
+          37,
+          51,
+          52,
+          53
+        ],
+        "n_points_evaluated": 79,
+        "n_points_total": 79,
+        "real_median_error_cm": 4.576714175018029,
+        "real_p95_error_cm": 8.198816591247256,
+        "real_max_error_cm": 10.771573971424575,
+        "frac_points_within_target": 0.9873417721518988
+      }
+    },
+    "15.0": {
+      "gdop_max_target": 2.263526065663683,
+      "sweep": {
+        "4": {
+          "coverage_frac": 0.22784810126582278,
+          "f2_p95_gdop": 1.662750099892547,
+          "f1_mean_gdop": 1.241266847885809,
+          "F": 147.53439669461378,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "6": {
+          "coverage_frac": 0.8607594936708861,
+          "f2_p95_gdop": 2.381248778264186,
+          "f1_mean_gdop": 1.5194375793284376,
+          "F": 27.93492325344053,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "8": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.5299772613702622,
+          "f1_mean_gdop": 1.1762296812246391,
+          "F": 3.1062069425949015,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "10": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.2726444227897857,
+          "f1_mean_gdop": 0.9959145231255068,
+          "F": 2.7685589459152924,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "12": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.1762855728896346,
+          "f1_mean_gdop": 0.892863806876734,
+          "F": 2.6691493797663686,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "14": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0384084442342594,
+          "f1_mean_gdop": 0.8231431130442919,
+          "F": 2.5615515572785514,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "16": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0534751280002623,
+          "f1_mean_gdop": 0.8129174540567312,
+          "F": 2.666392582056994,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "18": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "20": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "22": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "24": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "26": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "28": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "30": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        }
+      },
+      "min_M": 8,
+      "confirm": {
+        "M": 8,
+        "winner_alg": "GA",
+        "F_GA": 3.1062069425949015,
+        "F_PSO": 3.384700293045143,
+        "layout_idx": [
+          1,
+          5,
+          8,
+          15,
+          31,
+          51,
+          52,
+          53
+        ],
+        "n_points_evaluated": 79,
+        "n_points_total": 79,
+        "real_median_error_cm": 5.621101549129836,
+        "real_p95_error_cm": 8.82505305396813,
+        "real_max_error_cm": 12.544373556489868,
+        "frac_points_within_target": 1.0
+      }
+    },
+    "20.0": {
+      "gdop_max_target": 3.018034754218244,
+      "sweep": {
+        "4": {
+          "coverage_frac": 0.3670886075949367,
+          "f2_p95_gdop": 2.923441573402034,
+          "f1_mean_gdop": 2.0374764969307355,
+          "F": 121.74319655134542,
+          "status": "feasible",
+          "meets_target": false
+        },
+        "6": {
+          "coverage_frac": 0.9620253164556962,
+          "f2_p95_gdop": 1.8304392398404123,
+          "f1_mean_gdop": 1.3482156616152674,
+          "F": 3.4786549014556796,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "8": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.6274062796303457,
+          "f1_mean_gdop": 1.203161646950757,
+          "F": 3.2305679265811027,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "10": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.2591151341213376,
+          "f1_mean_gdop": 0.9970488569821345,
+          "F": 2.756163991103472,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "12": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.1762855728896346,
+          "f1_mean_gdop": 0.892863806876734,
+          "F": 2.6691493797663686,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "14": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0384084442342594,
+          "f1_mean_gdop": 0.8231431130442919,
+          "F": 2.5615515572785514,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "16": {
+          "coverage_frac": 1.0,
+          "f2_p95_gdop": 1.0786093020363465,
+          "f1_mean_gdop": 0.8272266527887001,
+          "F": 2.705835954825047,
+          "status": "feasible",
+          "meets_target": true
+        },
+        "18": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "20": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "22": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "24": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "26": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "28": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        },
+        "30": {
+          "coverage_frac": 0.0,
+          "f2_p95_gdop": Infinity,
+          "f1_mean_gdop": Infinity,
+          "F": Infinity,
+          "status": "infeasible: anchors too close (violates d_min)",
+          "meets_target": false
+        }
+      },
+      "min_M": 6,
+      "confirm": {
+        "M": 6,
+        "winner_alg": "GA",
+        "F_GA": 3.4786549014556796,
+        "F_PSO": 3.544837842921817,
+        "layout_idx": [
+          2,
+          4,
+          23,
+          38,
+          52,
+          53
+        ],
+        "n_points_evaluated": 79,
+        "n_points_total": 79,
+        "real_median_error_cm": 5.7025310349282545,
+        "real_p95_error_cm": 9.585815755901445,
+        "real_max_error_cm": 12.976994882279014,
+        "frac_points_within_target": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "original": {
+    "16": {
+      "f2_max_gdop": 5.844891405860556,
+      "coverage_frac": 0.9,
+      "n_feasible_found": 274,
+      "F": 160.51745970518232
+    },
+    "24": {
+      "f2_max_gdop": 5.191626194778384,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 458,
+      "F": 117.15774288331671
+    },
+    "32": {
+      "f2_max_gdop": 2.9775934085330222,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 492,
+      "F": 5.623527635754455
+    },
+    "40": {
+      "f2_max_gdop": 2.062658469948751,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 4.906707792311397
+    },
+    "44": {
+      "f2_max_gdop": 1.6733869659011353,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 4.668512442996464
+    },
+    "48": {
+      "f2_max_gdop": 1.6046698449595795,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 4.760564115681018
+    },
+    "52": {
+      "f2_max_gdop": 1.5829758538474126,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 4.895688835917133
+    },
+    "56": {
+      "f2_max_gdop": 1.5699407279010562,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.046103283581999
+    },
+    "60": {
+      "f2_max_gdop": 1.533354614104398,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.1718815353013525
+    }
+  },
+  "dense": {
+    "16": {
+      "f2_max_gdop": 11.309865945928012,
+      "coverage_frac": 0.6576923076923077,
+      "n_feasible_found": 402,
+      "F": 487.87380147991644
+    },
+    "24": {
+      "f2_max_gdop": 4.608435255719335,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 490,
+      "F": 87.48554792361183
+    },
+    "32": {
+      "f2_max_gdop": 2.469972580860647,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 498,
+      "F": 5.034595429932617
+    },
+    "40": {
+      "f2_max_gdop": 2.382998962027244,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.250576656269956
+    },
+    "44": {
+      "f2_max_gdop": 2.1658353987449788,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.186413585055931
+    },
+    "48": {
+      "f2_max_gdop": 1.9767300511067805,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.136513947561877
+    },
+    "52": {
+      "f2_max_gdop": 1.6304884061034801,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 4.94553708810621
+    },
+    "56": {
+      "f2_max_gdop": 1.5895399810447621,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.084093605587292
+    },
+    "60": {
+      "f2_max_gdop": 1.4808235825397391,
+      "coverage_frac": 1.0,
+      "n_feasible_found": 500,
+      "F": 5.159226622350252
+    }
+  }
+}
