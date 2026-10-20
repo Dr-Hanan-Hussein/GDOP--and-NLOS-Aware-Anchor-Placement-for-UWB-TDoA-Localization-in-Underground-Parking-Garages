@@ -1,0 +1,10 @@
+[G1] greedy: median=9736.52 mean_finite=15829.624543847203 best=6483.94 finite=18/20 vsGA p=0.0000 vsPSO p=0.0000 (0s)
+[G1] greedyF: median=1235.63 mean_finite=4206.903088033255 best=41.25 finite=16/20 vsGA p=0.0000 vsPSO p=0.0000 (25s)
+[G1] random: median=139.85 mean_finite=140.07837194348323 best=95.93 finite=20/20 vsGA p=0.0000 vsPSO p=0.0000 (120s)
+[G1] SA: median=4.95 mean_finite=13.290574752165506 best=4.45 finite=20/20 vsGA p=0.0010 vsPSO p=0.0000 (202s)
+[G1] reference PSO median=49.91, GA median=26.83
+[G2] greedy: median=17617.28 mean_finite=21622.86197694942 best=909.14 finite=20/20 vsGA p=0.0000 vsPSO p=0.0000 (0s)
+[G2] greedyF: median=223.38 mean_finite=544.4291218274233 best=49.40 finite=20/20 vsGA p=0.0000 vsPSO p=0.0000 (1s)
+[G2] random: median=34.92 mean_finite=40.67239265122559 best=7.25 finite=20/20 vsGA p=0.0000 vsPSO p=0.0155 (16s)
+[G2] SA: median=3.22 mean_finite=3.4578598098162203 best=3.21 finite=20/20 vsGA p=0.0000 vsPSO p=0.0000 (41s)
+[G2] reference PSO median=8.88, GA median=6.36

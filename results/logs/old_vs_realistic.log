@@ -1,0 +1,12 @@
+=== PSO layout ===
+  OLD (naive init, unconstrained LM, flat 10cm noise):
+    median=11.2cm mean=25536681.0cm max=4861302099.2cm corr(GDOP,err)=0.183
+  REALISTIC (Chan-Ho init, bounded TRF, distance-dependent noise):
+    median=14.8cm mean=31.9cm max=1462.7cm corr(GDOP,err)=0.155
+=== GA layout ===
+  OLD (naive init, unconstrained LM, flat 10cm noise):
+    median=10.3cm mean=26.3cm max=1476.9cm corr(GDOP,err)=0.701
+  REALISTIC (Chan-Ho init, bounded TRF, distance-dependent noise):
+    median=13.6cm mean=16.9cm max=151.9cm corr(GDOP,err)=0.771
+
+Saved old_vs_realistic_comparison.json

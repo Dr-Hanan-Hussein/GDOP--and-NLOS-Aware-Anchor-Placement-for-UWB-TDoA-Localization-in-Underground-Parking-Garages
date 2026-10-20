@@ -1,0 +1,10 @@
+[g1] SA single in-sample {'n': 20, 'feasible_frac': 0.7, 'median_F': 4.793210851758001, 'p90_F': 35.78808743566406, 'median_cov': 0.9557692307692308, 'min_cov': 0.7576923076923077}
+    held-out {'n': 600, 'feasible_frac': 0.023333333333333334, 'median_F': 141.02158678048733, 'p90_F': 1023.5209394068896, 'median_cov': 0.9461538461538461, 'min_cov': 0.6038461538461538} (261s)
+[g1] SA robust held-out {'n': 300, 'feasible_frac': 0.13666666666666666, 'median_F': 60.63064730375631, 'p90_F': 376.0688736537255, 'median_cov': 0.9346153846153846, 'min_cov': 0.46923076923076923} (628s)
+[g1] SA_single_best: 260 pts, median=11.6 p95=27.1 max=1370 cm, Spearman=0.82, failure pts=4, F=4.54
+[g1] SA_robust_best: 258 pts, median=12.4 p95=26.6 max=734 cm, Spearman=0.77, failure pts=1, F=5.08
+[g2] SA single in-sample {'n': 20, 'feasible_frac': 0.8, 'median_F': 3.51599634513955, 'p90_F': 4.841386324231625, 'median_cov': 0.9873417721518988, 'min_cov': 0.9493670886075949}
+    held-out {'n': 600, 'feasible_frac': 0.5716666666666667, 'median_F': 3.7935271519964426, 'p90_F': 199.98212302398068, 'median_cov': 0.9873417721518988, 'min_cov': 0.9113924050632911} (50s)
+[g2] SA robust held-out {'n': 300, 'feasible_frac': 0.8766666666666667, 'median_F': 3.5518656511881024, 'p90_F': 4.787403565297384, 'median_cov': 0.9873417721518988, 'min_cov': 0.9493670886075949} (134s)
+[g2] SA_single_best: 79 pts, median=6.5 p95=10.0 max=1120 cm, Spearman=0.71, failure pts=1, F=3.21
+[g2] SA_robust_best: 79 pts, median=6.8 p95=10.5 max=1023 cm, Spearman=0.64, failure pts=1, F=3.21

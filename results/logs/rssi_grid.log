@@ -1,0 +1,31 @@
+points: 129 of 130
+n=2.0 sigma=1.0dB -> median=2.13 m  mean=2.38 m
+n=2.0 sigma=2.0dB -> median=4.48 m  mean=4.68 m
+n=2.0 sigma=4.0dB -> median=9.38 m  mean=9.48 m
+n=2.0 sigma=6.0dB -> median=15.39 m  mean=15.57 m
+n=2.0 sigma=8.0dB -> median=23.97 m  mean=24.39 m
+n=2.5 sigma=1.0dB -> median=1.64 m  mean=1.89 m
+n=2.5 sigma=2.0dB -> median=3.52 m  mean=3.78 m
+n=2.5 sigma=4.0dB -> median=7.25 m  mean=7.47 m
+n=2.5 sigma=6.0dB -> median=11.60 m  mean=11.70 m
+n=2.5 sigma=8.0dB -> median=16.84 m  mean=17.05 m
+n=3.0 sigma=1.0dB -> median=1.32 m  mean=1.55 m
+n=3.0 sigma=2.0dB -> median=2.87 m  mean=3.17 m
+n=3.0 sigma=4.0dB -> median=5.95 m  mean=6.21 m
+n=3.0 sigma=6.0dB -> median=9.38 m  mean=9.48 m
+n=3.0 sigma=8.0dB -> median=13.07 m  mean=13.32 m
+n=3.5 sigma=1.0dB -> median=1.13 m  mean=1.30 m
+n=3.5 sigma=2.0dB -> median=2.43 m  mean=2.73 m
+n=3.5 sigma=4.0dB -> median=5.07 m  mean=5.33 m
+n=3.5 sigma=6.0dB -> median=7.87 m  mean=8.03 m
+n=3.5 sigma=8.0dB -> median=10.90 m  mean=11.04 m
+n=4.0 sigma=1.0dB -> median=0.97 m  mean=1.12 m
+n=4.0 sigma=2.0dB -> median=2.13 m  mean=2.38 m
+n=4.0 sigma=4.0dB -> median=4.48 m  mean=4.68 m
+n=4.0 sigma=6.0dB -> median=6.76 m  mean=6.99 m
+n=4.0 sigma=8.0dB -> median=9.38 m  mean=9.48 m
+n=3.0 sigma=0.05dB -> median=0.062 m
+n=3.0 sigma=0.1dB -> median=0.124 m
+n=3.0 sigma=0.2dB -> median=0.247 m
+n=3.0 sigma=0.3dB -> median=0.371 m
+n=3.0 sigma=0.5dB -> median=0.629 m

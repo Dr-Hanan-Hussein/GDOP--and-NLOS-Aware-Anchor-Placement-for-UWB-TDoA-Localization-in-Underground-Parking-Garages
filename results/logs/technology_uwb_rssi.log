@@ -1,0 +1,10 @@
+TIER 1: Calibration check (open geometry, no NLOS) - sanity check before the garage run
+  UWB-RSSI (engineering estimate): mean=5.19m, median=5.25m, max=5.78m  (feasible 100%)
+  WiFi (for reference): mean=14.61m, median=14.59m, max=15.15m  (feasible 100%)
+
+TIER 3: Same 16-anchor UWB-optimized layout, all technologies
+  UWB hardware + RSSI (not its native TDoA mode): mean=3.08m, median=2.82m, max=7.26m  (feasible 99%)
+  WiFi-RSSI (native mode): mean=7.94m, median=7.66m, max=16.32m  (feasible 99%)
+  BLE-RSSI (native mode): mean=6.11m, median=5.86m, max=13.22m  (feasible 99%)
+
+Saved uwb_rssi_comparison_results.json

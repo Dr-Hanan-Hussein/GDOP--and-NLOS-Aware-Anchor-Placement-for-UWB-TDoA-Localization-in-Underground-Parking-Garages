@@ -1,0 +1,33 @@
+Original: 86 candidates. Dense: 357 candidates.
+  [original] M= 16  worst-case GDOP=  5.845  coverage= 90.0%  feasible found=274/500  (1s)
+  [original] M= 24  worst-case GDOP=  5.192  coverage=100.0%  feasible found=458/500  (1s)
+  [original] M= 32  worst-case GDOP=  2.978  coverage=100.0%  feasible found=492/500  (1s)
+  [original] M= 40  worst-case GDOP=  2.063  coverage=100.0%  feasible found=500/500  (1s)
+  [original] M= 44  worst-case GDOP=  1.673  coverage=100.0%  feasible found=500/500  (1s)
+  [original] M= 48  worst-case GDOP=  1.605  coverage=100.0%  feasible found=500/500  (1s)
+  [original] M= 52  worst-case GDOP=  1.583  coverage=100.0%  feasible found=500/500  (1s)
+  [original] M= 56  worst-case GDOP=  1.570  coverage=100.0%  feasible found=500/500  (2s)
+  [original] M= 60  worst-case GDOP=  1.533  coverage=100.0%  feasible found=500/500  (2s)
+  [dense   ] M= 16  worst-case GDOP= 11.310  coverage= 65.8%  feasible found=402/500  (3s)
+  [dense   ] M= 24  worst-case GDOP=  4.608  coverage=100.0%  feasible found=490/500  (4s)
+  [dense   ] M= 32  worst-case GDOP=  2.470  coverage=100.0%  feasible found=498/500  (5s)
+  [dense   ] M= 40  worst-case GDOP=  2.383  coverage=100.0%  feasible found=500/500  (5s)
+  [dense   ] M= 44  worst-case GDOP=  2.166  coverage=100.0%  feasible found=500/500  (5s)
+  [dense   ] M= 48  worst-case GDOP=  1.977  coverage=100.0%  feasible found=500/500  (5s)
+  [dense   ] M= 52  worst-case GDOP=  1.630  coverage=100.0%  feasible found=500/500  (6s)
+  [dense   ] M= 56  worst-case GDOP=  1.590  coverage=100.0%  feasible found=500/500  (5s)
+  [dense   ] M= 60  worst-case GDOP=  1.481  coverage=100.0%  feasible found=500/500  (5s)
+
+=== COMPARISON (best-of-500 random spacing-respecting restarts, identical method both grids) ===
+   M   Original (86 cand.)    Denser (357 cand.)   Improvement
+  16                 5.845                11.310        -93.5%
+  24                 5.192                 4.608         11.2%
+  32                 2.978                 2.470         17.0%
+  40                 2.063                 2.383        -15.5%
+  44                 1.673                 2.166        -29.4%
+  48                 1.605                 1.977        -23.2%
+  52                 1.583                 1.630         -3.0%
+  56                 1.570                 1.590         -1.2%
+  60                 1.533                 1.481          3.4%
+
+Saved denser_grid_floor_test_v2.json

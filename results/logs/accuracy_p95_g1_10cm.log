@@ -1,0 +1,15 @@
+10cm target (P95), GDOP_max=0.891
+    M= 16  coverage= 95.4%  P95-GDOP=1.93  (target<=0.89)  --
+    M= 20  coverage= 98.5%  P95-GDOP=1.45  (target<=0.89)  --
+    M= 24  coverage=100.0%  P95-GDOP=1.32  (target<=0.89)  --
+    M= 28  coverage=100.0%  P95-GDOP=1.22  (target<=0.89)  --
+    M= 32  coverage=100.0%  P95-GDOP=1.07  (target<=0.89)  --
+    M= 36  coverage=100.0%  P95-GDOP=0.99  (target<=0.89)  --
+    M= 40  coverage=100.0%  P95-GDOP=0.94  (target<=0.89)  --
+    M= 44  coverage=100.0%  P95-GDOP=0.89  (target<=0.89)  --
+    M= 48  coverage=100.0%  P95-GDOP=0.89  (target<=0.89)  OK
+    M= 52  coverage=100.0%  P95-GDOP=0.87  (target<=0.89)  OK
+sweep took 67.8s. Minimal feasible M = 48
+confirmation (GA won) took 44.5s
+REAL validation: median=7.4cm  p95=13.9cm  max=22.3cm  fraction<=10cm=80.4%
+Updated accuracy_driven_design_p95_garage1.json

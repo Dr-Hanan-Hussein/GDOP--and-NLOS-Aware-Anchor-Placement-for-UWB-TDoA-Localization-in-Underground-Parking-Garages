@@ -1,0 +1,29 @@
+PSO vs GA on Garage 1 (reference, synthetic): S=20, seed_base=1000, M=16
+
+seed  1/20: PSO F= 120.506 (9.6s)   GA F=  22.492 (15.3s)
+seed  2/20: PSO F=  23.700 (14.1s)   GA F=  58.712 (8.4s)
+seed  3/20: PSO F=  49.483 (14.8s)   GA F=  15.196 (13.8s)
+seed  4/20: PSO F=  59.406 (14.0s)   GA F=  28.428 (13.9s)
+seed  5/20: PSO F=  70.723 (6.3s)   GA F=  20.127 (13.4s)
+seed  6/20: PSO F=  10.429 (15.4s)   GA F=  22.093 (14.9s)
+seed  7/20: PSO F=  23.094 (14.4s)   GA F=  29.112 (13.1s)
+seed  8/20: PSO F=  50.425 (12.6s)   GA F=   5.110 (13.5s)
+seed  9/20: PSO F= 125.624 (7.0s)   GA F=  52.011 (7.8s)
+seed 10/20: PSO F=  50.346 (7.5s)   GA F=   5.070 (14.2s)
+seed 11/20: PSO F=  40.795 (14.7s)   GA F=  29.979 (13.8s)
+seed 12/20: PSO F=  43.002 (13.3s)   GA F=  26.297 (14.1s)
+seed 13/20: PSO F=  12.422 (13.1s)   GA F=  58.763 (8.0s)
+seed 14/20: PSO F=  56.542 (15.0s)   GA F=  27.370 (15.1s)
+seed 15/20: PSO F= 112.332 (7.0s)   GA F=  36.024 (13.6s)
+seed 16/20: PSO F=  45.309 (8.5s)   GA F=   5.133 (15.1s)
+seed 17/20: PSO F=  85.120 (8.3s)   GA F=  55.745 (12.0s)
+seed 18/20: PSO F=  33.983 (12.6s)   GA F=   6.527 (14.4s)
+seed 19/20: PSO F= 123.450 (6.3s)   GA F=  44.454 (13.3s)
+seed 20/20: PSO F=  27.533 (15.1s)   GA F=  10.968 (13.9s)
+
+Total: 493.9s
+PSO: mean=58.21 median=49.91
+GA:  mean=27.98 median=26.83
+U=304.0, p=0.0051, r=-0.520
+Winner: GA (statistically significant)
+Saved comparison_report.json / comparison_curves.json

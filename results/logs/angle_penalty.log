@@ -1,0 +1,39 @@
+
+--- PSO layout: PHASE 1 (full-Jacobian condition number) ---
+  n_bad=7  n_good=252
+  BAD:  mean=3.21 min=1.14 max=4.96
+  GOOD: mean=2.58 min=1.02 max=8.18
+--- PSO layout: PHASE 2 (worst-pairwise-angle) ---
+  BAD  gdop=1.07 rmse=1468cm  worst_angle=  7.0 deg  dist_ratio=2.04
+  BAD  gdop=1.02 rmse=575cm  worst_angle=  7.4 deg  dist_ratio=2.11
+  BAD  gdop=2.58 rmse=754cm  worst_angle= 20.1 deg  dist_ratio=3.41
+  BAD  gdop=2.32 rmse=158cm  worst_angle= 18.5 deg  dist_ratio=3.10
+  BAD  gdop=1.92 rmse=126cm  worst_angle= 17.1 deg  dist_ratio=2.86
+  BAD  gdop=1.93 rmse=636cm  worst_angle=  9.9 deg  dist_ratio=2.17
+  BAD  gdop=2.77 rmse=503cm  worst_angle=  8.6 deg  dist_ratio=2.01
+  GOOD worst_angle: mean=9.1 median=7.9 min=0.4 (n=252)
+
+--- GA layout: PHASE 1 (full-Jacobian condition number) ---
+  n_bad=4  n_good=254
+  BAD:  mean=3.34 min=1.87 max=5.39
+  GOOD: mean=2.70 min=1.15 max=12.96
+--- GA layout: PHASE 2 (worst-pairwise-angle) ---
+  BAD  gdop=0.96 rmse=101cm  worst_angle=  1.4 deg  dist_ratio=1.43
+  BAD  gdop=1.41 rmse=256cm  worst_angle=  0.4 deg  dist_ratio=1.37
+  BAD  gdop=1.53 rmse=283cm  worst_angle=  0.4 deg  dist_ratio=1.35
+  BAD  gdop=2.68 rmse=140cm  worst_angle=  1.0 deg  dist_ratio=1.35
+  GOOD worst_angle: mean=6.8 median=4.1 min=0.1 (n=254)
+
+Running GA with angle-redundancy penalty (threshold=5.0 deg, weight=30.0), M=16, seed=2026, 150 generations...
+Done in 47s. F=141.75  worst-case GDOP=2.95  min pairwise angle found=0.4 deg
+  seed 2026: 3/259 (1.2%) exceed 2x predicted; 2/259 (0.8%) exceed 100cm; median=12.9cm
+
+Running GA with angle-redundancy penalty (threshold=5.0 deg, weight=30.0), M=16, seed=3033, 150 generations...
+Done in 47s. F=184.76  worst-case GDOP=3.36  min pairwise angle found=0.0 deg
+  seed 3033: 0/235 (0.0%) exceed 2x predicted; 0/235 (0.0%) exceed 100cm; median=11.9cm
+
+Running GA with angle-redundancy penalty (threshold=5.0 deg, weight=30.0), M=16, seed=4044, 150 generations...
+Done in 49s. F=148.34  worst-case GDOP=3.13  min pairwise angle found=0.4 deg
+  seed 4044: 4/250 (1.6%) exceed 2x predicted; 2/250 (0.8%) exceed 100cm; median=14.1cm
+
+Baseline (unmodified GA, no penalty): 3.2% / 1.6% exceed thresholds, median 13.5cm

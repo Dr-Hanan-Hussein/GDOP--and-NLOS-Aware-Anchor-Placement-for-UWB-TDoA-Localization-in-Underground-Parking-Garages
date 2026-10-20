@@ -1,0 +1,17 @@
+Figure 1
+Figure 2
+  wrote figures/fig2_garage1_layout.png / .pdf
+Figure 3
+  wrote figures/fig3_garage2_layout.png / .pdf
+Figure 4
+  wrote figures/fig4_old_vs_final_solver.png / .pdf
+Figure 5
+  coverage of valid floor area with >= 4 LOS anchors: 70.1%
+  wrote figures/fig5_gdop_heatmap_ga_garage1.png / .pdf
+Figure 6
+  seed 42: PSO final F = 69.96, GA final F = 32.44
+  wrote figures/fig6_convergence_garage1.png / .pdf
+Figure 7
+  wrote figures/fig7_technology_comparison.png / .pdf
+Figure 8
+  wrote figures/fig8_min_anchors_vs_accuracy.png / .pdf

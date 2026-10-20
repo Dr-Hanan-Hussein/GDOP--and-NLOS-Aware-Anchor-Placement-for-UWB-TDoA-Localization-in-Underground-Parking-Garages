@@ -1,0 +1,16 @@
+best_pso_idx [ 2.  11.3] n=4 fail=49/200 est_better_than_truth=0 multistart_recovers=49
+best_pso_idx [35.  11.3] n=4 fail=81/200 est_better_than_truth=81 multistart_recovers=0
+best_pso_idx [44.   6.8] n=4 fail=6/200 est_better_than_truth=6 multistart_recovers=1
+best_pso_idx [ 3.5 11.3] n=5 fail=2/200 est_better_than_truth=0 multistart_recovers=2
+best_pso_idx [ 6.5 22.6] n=4 fail=4/200 est_better_than_truth=0 multistart_recovers=4
+best_pso_idx [36.5 11.3] n=4 fail=4/200 est_better_than_truth=4 multistart_recovers=0
+best_pso_idx [38.  11.3] n=4 fail=0/200 est_better_than_truth=0 multistart_recovers=0
+best_pso_idx [39.5 11.3] n=4 fail=1/200 est_better_than_truth=1 multistart_recovers=1
+best_ga_idx [47.   9.8] n=7 fail=1/200 est_better_than_truth=1 multistart_recovers=0
+best_ga_idx [45.5  9.8] n=7 fail=0/200 est_better_than_truth=0 multistart_recovers=0
+best_ga_idx [47.  11.3] n=7 fail=12/200 est_better_than_truth=12 multistart_recovers=0
+best_ga_idx [41.  11.3] n=7 fail=1/200 est_better_than_truth=1 multistart_recovers=1
+best_ga_idx [32.  22.6] n=3 fail=58/200 est_better_than_truth=58 multistart_recovers=0
+best_ga_idx [45.5 11.3] n=7 fail=1/200 est_better_than_truth=1 multistart_recovers=0
+best_ga_idx [44.  22.6] n=3 fail=58/200 est_better_than_truth=58 multistart_recovers=0
+best_ga_idx [42.5 22.6] n=3 fail=45/200 est_better_than_truth=45 multistart_recovers=0

@@ -1,0 +1,12 @@
+G1 best_pso_idx: n=259  Pearson GDOP=0.113 CRB=0.111 | Spearman GDOP=0.793 CRB=0.792
+   median MC/CRB=1.24  p95=2.26  max=156.1; median CRB=10.5cm  median MC=14.9cm
+   worst MC points: MC=1468 CRB=9.4 GDOP=1.07 n=4; MC=754 CRB=22.5 GDOP=2.58 n=4; MC=636 CRB=16.6 GDOP=1.93 n=4; MC=575 CRB=7.6 GDOP=1.02 n=5; MC=503 CRB=26.5 GDOP=2.77 n=4
+G1 best_ga_idx: n=258  Pearson GDOP=0.407 CRB=0.384 | Spearman GDOP=0.817 CRB=0.831
+   median MC/CRB=1.32  p95=2.14  max=25.3; median CRB=9.0cm  median MC=13.5cm
+   worst MC points: MC=283 CRB=11.2 GDOP=1.53 n=7; MC=256 CRB=10.8 GDOP=1.41 n=7; MC=140 CRB=19.8 GDOP=2.68 n=7; MC=101 CRB=8.2 GDOP=0.96 n=7; MC=100 CRB=94.3 GDOP=9.08 n=3
+G2 best_pso_idx: n=79  Pearson GDOP=0.871 CRB=0.896 | Spearman GDOP=0.696 CRB=0.743
+   median MC/CRB=1.17  p95=1.58  max=1.8; median CRB=6.3cm  median MC=7.5cm
+   worst MC points: MC=30 CRB=27.0 GDOP=4.15 n=3; MC=16 CRB=11.7 GDOP=2.03 n=5; MC=16 CRB=13.4 GDOP=2.51 n=4; MC=15 CRB=8.9 GDOP=1.33 n=5; MC=14 CRB=8.2 GDOP=1.47 n=6
+G2 best_ga_idx: n=79  Pearson GDOP=0.435 CRB=0.434 | Spearman GDOP=0.364 CRB=0.377
+   median MC/CRB=1.23  p95=2.08  max=2.4; median CRB=6.1cm  median MC=7.4cm
+   worst MC points: MC=17 CRB=7.0 GDOP=1.45 n=7; MC=15 CRB=7.2 GDOP=1.32 n=6; MC=13 CRB=11.6 GDOP=1.66 n=4; MC=12 CRB=7.0 GDOP=1.27 n=7; MC=11 CRB=7.2 GDOP=1.50 n=5

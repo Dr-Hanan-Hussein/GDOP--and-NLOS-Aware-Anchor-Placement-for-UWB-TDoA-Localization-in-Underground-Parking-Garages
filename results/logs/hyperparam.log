@@ -1,0 +1,63 @@
+======================================================================
+STEP 1a: PSO hyperparameter sweep (S=5 seeds each)
+======================================================================
+  default (w0.9-0.4, c1=2.0, c2=2.0)            mean=  64.76 median=  59.41 std= 35.68  (48s)
+  high-explore (w0.95-0.2, c1=2.5, c2=1.5)      mean=  34.88 median=  32.18 std= 29.86  (50s)
+  low-inertia (w0.7-0.2, c1=1.5, c2=1.5)        mean=  48.58 median=  57.05 std= 28.70  (61s)
+  balanced (w0.8-0.3, c1=1.8, c2=1.8)           mean=  63.46 median=  71.77 std= 21.69  (69s)
+  social-dominant (c1=1.0, c2=2.5)              mean=  65.94 median=  79.15 std= 24.44  (41s)
+  cognitive-dominant (c1=2.5, c2=1.0)           mean=  22.13 median=  22.31 std= 19.69  (56s)
+
+======================================================================
+STEP 1b: GA hyperparameter sweep (S=5 seeds each)
+======================================================================
+  default (mut=0.03, k=3, elit=1)               mean=  28.99 median=  22.49 std= 17.28  (53s)
+  high-mutation (mut=0.10, k=3, elit=1)         mean=  15.30 median=  20.01 std=  8.65  (59s)
+  low-mutation (mut=0.01, k=3, elit=1)          mean=  40.33 median=  43.10 std= 38.09  (60s)
+  high-pressure (mut=0.03, k=5, elit=2)         mean=  44.37 median=  32.90 std= 27.04  (61s)
+  low-pressure (mut=0.03, k=2, elit=1)          mean=  14.44 median=  17.76 std=  6.51  (55s)
+  high-elitism (mut=0.05, k=3, elit=4)          mean=  30.36 median=  35.68 std= 18.55  (54s)
+
+Best PSO config: cognitive-dominant (c1=2.5, c2=1.0)
+Best GA config:  low-pressure (mut=0.03, k=2, elit=1)
+
+======================================================================
+STEP 2: Full S=20 head-to-head with BEST-TUNED configs (vs. original)
+======================================================================
+  seed  1/20: PSO(tuned) F=  25.419   GA(tuned) F=  18.827
+  seed  2/20: PSO(tuned) F=   5.098   GA(tuned) F=   8.094
+  seed  3/20: PSO(tuned) F=   4.855   GA(tuned) F=  17.757
+  seed  4/20: PSO(tuned) F=  52.965   GA(tuned) F=  20.744
+  seed  5/20: PSO(tuned) F=  22.309   GA(tuned) F=   6.757
+  seed  6/20: PSO(tuned) F=  17.614   GA(tuned) F=   9.633
+  seed  7/20: PSO(tuned) F=  25.768   GA(tuned) F=  14.808
+  seed  8/20: PSO(tuned) F=  24.591   GA(tuned) F=   9.853
+  seed  9/20: PSO(tuned) F=  59.608   GA(tuned) F=  17.637
+  seed 10/20: PSO(tuned) F=  17.649   GA(tuned) F=   6.556
+  seed 11/20: PSO(tuned) F=  46.642   GA(tuned) F=   9.523
+  seed 12/20: PSO(tuned) F=   4.951   GA(tuned) F=   8.009
+  seed 13/20: PSO(tuned) F=  10.589   GA(tuned) F=   8.247
+  seed 14/20: PSO(tuned) F=  58.128   GA(tuned) F=  46.528
+  seed 15/20: PSO(tuned) F=  61.034   GA(tuned) F=  14.292
+  seed 16/20: PSO(tuned) F=   8.313   GA(tuned) F=  20.534
+  seed 17/20: PSO(tuned) F=  17.439   GA(tuned) F=  22.677
+  seed 18/20: PSO(tuned) F=  42.165   GA(tuned) F=   9.518
+  seed 19/20: PSO(tuned) F=  10.248   GA(tuned) F=   4.874
+  seed 20/20: PSO(tuned) F=  30.616   GA(tuned) F=  16.580
+
+--- SUMMARY ---
+{
+  "best_pso_config": "cognitive-dominant (c1=2.5, c2=1.0)",
+  "best_ga_config": "low-pressure (mut=0.03, k=2, elit=1)",
+  "tuned_mean_PSO": 27.300068340769382,
+  "tuned_median_PSO": 23.45014244364023,
+  "tuned_mean_GA": 14.572452888556569,
+  "tuned_median_GA": 12.072540978071228,
+  "tuned_U": 281.0,
+  "tuned_p": 0.02944088441208284,
+  "tuned_r": -0.405,
+  "original_mean_PSO": 58.21,
+  "original_mean_GA": 27.98,
+  "original_p": 0.0051,
+  "original_r": -0.52
+}

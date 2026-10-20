@@ -1,0 +1,35 @@
+Calibrated slope a=11.22 cm/GDOP  (Option B: P95 target, not strict worst-case)
+
+--- Target 15cm (P95)  ->  GDOP_max=1.337 ---
+    M=  6  coverage=  6.5%  P95-GDOP=1.25  (target<=1.34)  --
+    M=  8  coverage= 40.0%  P95-GDOP=1.42  (target<=1.34)  --
+    M= 10  coverage= 52.3%  P95-GDOP=1.73  (target<=1.34)  --
+    M= 12  coverage= 49.2%  P95-GDOP=1.73  (target<=1.34)  --
+    M= 14  coverage= 95.4%  P95-GDOP=2.25  (target<=1.34)  --
+    M= 16  coverage= 95.4%  P95-GDOP=1.93  (target<=1.34)  --
+    M= 18  coverage= 91.9%  P95-GDOP=1.72  (target<=1.34)  --
+    M= 20  coverage= 98.5%  P95-GDOP=1.45  (target<=1.34)  --
+    M= 22  coverage=100.0%  P95-GDOP=1.35  (target<=1.34)  --
+    M= 24  coverage=100.0%  P95-GDOP=1.32  (target<=1.34)  OK
+    M= 26  coverage= 95.4%  P95-GDOP=1.17  (target<=1.34)  OK
+  sweep took 56.0s. Minimal feasible M = 24
+  confirmation (GA won) took 45.4s
+  REAL validation: median=9.0cm  p95=15.0cm  max=27.2cm  fraction<=15cm=95.0%
+
+--- Target 20cm (P95)  ->  GDOP_max=1.783 ---
+    M=  6  coverage=  7.3%  P95-GDOP=1.46  (target<=1.78)  --
+    M=  8  coverage= 45.0%  P95-GDOP=1.89  (target<=1.78)  --
+    M= 10  coverage= 52.3%  P95-GDOP=1.73  (target<=1.78)  --
+    M= 12  coverage= 49.2%  P95-GDOP=1.73  (target<=1.78)  --
+    M= 14  coverage= 95.4%  P95-GDOP=2.25  (target<=1.78)  --
+    M= 16  coverage= 95.4%  P95-GDOP=1.93  (target<=1.78)  --
+    M= 18  coverage= 92.3%  P95-GDOP=1.84  (target<=1.78)  --
+    M= 20  coverage= 98.8%  P95-GDOP=1.48  (target<=1.78)  OK
+    M= 22  coverage= 99.6%  P95-GDOP=1.47  (target<=1.78)  OK
+    M= 24  coverage=100.0%  P95-GDOP=1.29  (target<=1.78)  OK
+    M= 26  coverage=100.0%  P95-GDOP=1.23  (target<=1.78)  OK
+  sweep took 59.7s. Minimal feasible M = 20
+  confirmation (GA won) took 44.9s
+  REAL validation: median=8.9cm  p95=15.5cm  max=28.7cm  fraction<=20cm=98.1%
+
+Saved accuracy_driven_design_p95_garage1.json

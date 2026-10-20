@@ -1,0 +1,24 @@
+
+--- EXTENDED sweep, target 10cm -> GDOP_max=0.891 ---
+    M= 32  coverage=100.0%  worst-GDOP=1.53  (target<=0.89)  --
+    M= 36  coverage=100.0%  worst-GDOP=1.53  (target<=0.89)  --
+    M= 40  coverage=100.0%  worst-GDOP=1.47  (target<=0.89)  --
+    M= 44  coverage=100.0%  worst-GDOP=1.46  (target<=0.89)  --
+    M= 48  coverage=100.0%  worst-GDOP=1.46  (target<=0.89)  --
+    M= 52  coverage=100.0%  worst-GDOP=1.46  (target<=0.89)  --
+    M= 56  coverage=100.0%  worst-GDOP=1.46  (target<=0.89)  --
+    M= 60  coverage=100.0%  worst-GDOP=1.46  (target<=0.89)  --
+  Still infeasible up to M=60 (86 candidates total available)
+
+--- EXTENDED sweep, target 15cm -> GDOP_max=1.337 ---
+    M= 32  coverage=100.0%  worst-GDOP=1.53  (target<=1.34)  --
+    M= 36  coverage=100.0%  worst-GDOP=1.53  (target<=1.34)  --
+    M= 40  coverage=100.0%  worst-GDOP=1.47  (target<=1.34)  --
+    M= 44  coverage=100.0%  worst-GDOP=1.46  (target<=1.34)  --
+    M= 48  coverage=100.0%  worst-GDOP=1.46  (target<=1.34)  --
+    M= 52  coverage=100.0%  worst-GDOP=1.46  (target<=1.34)  --
+    M= 56  coverage=100.0%  worst-GDOP=1.46  (target<=1.34)  --
+    M= 60  coverage=100.0%  worst-GDOP=1.46  (target<=1.34)  --
+  Still infeasible up to M=60 (86 candidates total available)
+
+Updated accuracy_driven_design_garage1.json

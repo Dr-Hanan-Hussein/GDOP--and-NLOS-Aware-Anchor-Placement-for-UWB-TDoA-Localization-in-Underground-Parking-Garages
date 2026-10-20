@@ -1,0 +1,7 @@
+Best PSO: evaluated 79/79 points
+  RMSE: mean=8.5cm median=7.5cm max=30.5cm
+  Correlation(GDOP,RMSE): r=0.871
+Best GA: evaluated 79/79 points
+  RMSE: mean=8.0cm median=7.4cm max=16.7cm
+  Correlation(GDOP,RMSE): r=0.435
+Saved accuracy_validation_both_garage2.json

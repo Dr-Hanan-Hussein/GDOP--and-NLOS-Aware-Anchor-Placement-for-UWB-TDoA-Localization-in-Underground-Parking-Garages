@@ -1,0 +1,29 @@
+PSO vs GA on Garage 2 (Tongji University-inspired, smaller/denser): S=20, seed_base=1000, M=8
+
+seed  1/20: PSO F=   4.606 (3.7s)   GA F=  17.112 (3.3s)
+seed  2/20: PSO F=   6.836 (4.4s)   GA F=   4.215 (4.5s)
+seed  3/20: PSO F=   8.119 (2.8s)   GA F=   3.702 (2.8s)
+seed  4/20: PSO F=  44.108 (3.1s)   GA F=   5.001 (2.7s)
+seed  5/20: PSO F=  25.451 (2.8s)   GA F=   3.919 (3.1s)
+seed  6/20: PSO F=  66.952 (2.7s)   GA F=   4.382 (2.6s)
+seed  7/20: PSO F=  32.739 (2.8s)   GA F=   4.513 (3.1s)
+seed  8/20: PSO F=   4.702 (3.2s)   GA F=  13.915 (2.7s)
+seed  9/20: PSO F=  68.239 (2.4s)   GA F=   4.706 (3.1s)
+seed 10/20: PSO F=   4.584 (3.0s)   GA F=   7.710 (3.0s)
+seed 11/20: PSO F=   7.580 (3.1s)   GA F=  36.993 (3.1s)
+seed 12/20: PSO F=  25.082 (2.6s)   GA F=  27.805 (2.6s)
+seed 13/20: PSO F=   4.595 (2.7s)   GA F=  15.025 (2.8s)
+seed 14/20: PSO F=   6.607 (2.6s)   GA F=   9.617 (2.7s)
+seed 15/20: PSO F=   9.641 (2.4s)   GA F=   3.216 (2.8s)
+seed 16/20: PSO F=  39.094 (3.6s)   GA F=  14.197 (2.6s)
+seed 17/20: PSO F=  52.453 (2.9s)   GA F=  49.802 (2.8s)
+seed 18/20: PSO F=   4.604 (2.8s)   GA F=   4.706 (3.0s)
+seed 19/20: PSO F=  64.959 (2.4s)   GA F=  19.531 (2.7s)
+seed 20/20: PSO F=   4.151 (2.5s)   GA F=   4.685 (3.0s)
+
+Total: 117.9s
+PSO: mean=24.26 median=8.88
+GA:  mean=12.74 median=6.36
+U=257.0, p=0.1264, r=-0.285
+Winner: no statistically significant difference
+Saved comparison_report_g2.json / comparison_curves_g2.json

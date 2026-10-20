@@ -1,0 +1,13 @@
+TIER 1: Calibration (open geometry)
+  WiFi: mean=14.7m, median=14.9m, max=15.8m  (feasible at 100% of points, 0 skipped)
+  BLE: mean=11.0m, median=10.8m, max=11.5m  (feasible at 100% of points, 0 skipped)
+
+TIER 2: Sparse technology-typical deployment in the NLOS-heavy garage
+  WiFi (4 APs): INFEASIBLE - 0/260 points had >=3 simultaneous LOS APs
+  BLE (6 APs): mean=9.4m, median=9.4m, max=9.4m  (feasible at 0% of points, 259 skipped)
+
+TIER 3: Same infrastructure as the optimised UWB layout
+  WiFi (16 APs, UWB-matched): mean=8.0m, median=7.6m, max=16.0m  (feasible at 99% of points, 2 skipped)
+  BLE (16 APs, UWB-matched): mean=6.1m, median=5.9m, max=11.9m  (feasible at 99% of points, 2 skipped)
+
+Saved task_2_5_results.json

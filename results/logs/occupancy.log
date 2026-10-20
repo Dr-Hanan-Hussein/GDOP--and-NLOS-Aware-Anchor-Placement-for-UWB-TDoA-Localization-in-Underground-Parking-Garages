@@ -1,0 +1,26 @@
+[g1] visibility built 48s
+[g1] single-occupancy PSO: in-sample {'n': 20, 'feasible_frac': 0.0, 'median_F': 49.91445555646982, 'p90_F': 120.80004903880705, 'median_cov': 0.9326923076923077, 'min_cov': 0.573076923076923}
+      held-out {'n': 600, 'feasible_frac': 0.0, 'median_F': 308.5332117838064, 'p90_F': 1401.6921075438684, 'median_cov': 0.9230769230769231, 'min_cov': 0.4653846153846154}
+[g1] single-occupancy GA: in-sample {'n': 20, 'feasible_frac': 0.15, 'median_F': 26.833399932303774, 'p90_F': 56.04210266496501, 'median_cov': 0.9461538461538461, 'min_cov': 0.7153846153846154}
+      held-out {'n': 600, 'feasible_frac': 0.005, 'median_F': 148.23038779556458, 'p90_F': 612.8999134230396, 'median_cov': 0.95, 'min_cov': 0.5961538461538461}
+[g1] robust GA seed 0: mean-train F=54.360 (111s)
+[g1] robust GA seed 1: mean-train F=34.919 (166s)
+[g1] robust GA seed 2: mean-train F=12.435 (227s)
+[g1] robust GA seed 3: mean-train F=83.397 (286s)
+[g1] robust GA seed 4: mean-train F=60.363 (347s)
+[g1] robust GA held-out {'n': 150, 'feasible_frac': 0.0, 'median_F': 69.06134715995273, 'p90_F': 220.50540552313086, 'median_cov': 0.9384615384615385, 'min_cov': 0.8884615384615384}
+[g1] oracle {'n': 10, 'feasible_frac': 0.0, 'median_F': 24.98245662287887, 'p90_F': 37.30992769090229, 'median_cov': 0.95, 'min_cov': 0.85}
+      single GA same occupancies {'n': 200, 'feasible_frac': 0.005, 'median_F': 134.63190072003076, 'p90_F': 517.8510035015578, 'median_cov': 0.9538461538461539, 'min_cov': 0.6230769230769231}
+[g2] visibility built 9s
+[g2] single-occupancy PSO: in-sample {'n': 20, 'feasible_frac': 0.2, 'median_F': 8.879980557024806, 'p90_F': 65.15873173434468, 'median_cov': 0.9556962025316456, 'min_cov': 0.6329113924050633}
+      held-out {'n': 600, 'feasible_frac': 0.055, 'median_F': 93.54427590630482, 'p90_F': 439.5663698546336, 'median_cov': 0.9620253164556962, 'min_cov': 0.46835443037974683}
+[g2] single-occupancy GA: in-sample {'n': 20, 'feasible_frac': 0.25, 'median_F': 6.355714595472085, 'p90_F': 28.724075234951005, 'median_cov': 0.9556962025316456, 'min_cov': 0.8734177215189873}
+      held-out {'n': 600, 'feasible_frac': 0.085, 'median_F': 76.88212747550226, 'p90_F': 277.7321382630057, 'median_cov': 0.9620253164556962, 'min_cov': 0.8227848101265823}
+[g2] robust GA seed 0: mean-train F=15.966 (20s)
+[g2] robust GA seed 1: mean-train F=13.287 (31s)
+[g2] robust GA seed 2: mean-train F=4.596 (42s)
+[g2] robust GA seed 3: mean-train F=3.510 (52s)
+[g2] robust GA seed 4: mean-train F=4.917 (62s)
+[g2] robust GA held-out {'n': 150, 'feasible_frac': 0.52, 'median_F': 4.624061831793529, 'p90_F': 115.99576153117523, 'median_cov': 0.9620253164556962, 'min_cov': 0.8607594936708861}
+[g2] oracle {'n': 10, 'feasible_frac': 0.7, 'median_F': 4.310445181195411, 'p90_F': 47.18784864214126, 'median_cov': 0.9683544303797469, 'min_cov': 0.8860759493670886}
+      single GA same occupancies {'n': 200, 'feasible_frac': 0.11, 'median_F': 68.17278632139165, 'p90_F': 277.73878282722376, 'median_cov': 0.9620253164556962, 'min_cov': 0.8481012658227848}
